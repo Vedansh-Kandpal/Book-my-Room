@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family-Inter&display-swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter",sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    animation: FadeIn 1.5s;
+}
+.nav_link{
+    color:#6b7280;
+}
+.nav_link:hover{
+    color: #f59e08;
+}
+.nav_link:active{
+    color: black;
+    background-color:#f59e0b;
+    border-radius: 7px;
+    width: fit-content;
+    padding: 5px;
+    text-align: center;
+
+}

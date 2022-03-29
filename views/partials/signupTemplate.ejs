@@ -1,0 +1,142 @@
+<div>   
+    <div class="p-3 lg:w-1/2 mx-auto">
+      <div class="bg-white rounded-t-lg p-5">
+        <p class="text-center text-lg text-gray-800 font-light">Sign up with</p>        
+        <div>            
+          <div class="flex items-center justify-center space-x-4 mt-3">               
+            
+            <button class="flex items-center py-2 px-4 text-sm uppercase rounded bg-white hover:bg-gray-100
+            text-indigo-500 border border-transparent hover:border-transparent hover:text-gray-700 shadow-md
+            hover:shadow-lg font-medium transition transform hover:-translate-y-0.5">
+              <a href="https://mail.google.com">
+                <img src="/img/icons8-google-24.png" alt="">   
+              </a> Google                  
+            </button>            
+          </div>         
+        </div>      
+      </div>      
+      <div class="bg-gray-100 rounded-b-lg py-5 px-4 lg:px-24">
+        <p class="text-center text-sm text-gray-500 font-light">Or sign up with credentials</p>         
+        <form class="mt-6" action="/signup" method="POST">
+
+          <div class="flex justify-center">
+            <div class="mb-3 xl:w-20 ">
+              <select name="selector" class="appearance-none m-0  form-select border block px-2 py-1.5 border-gray-100 shadow-sm focus:shadow-md transition rounded-md w-full text-gray-600 leading-tight  focus:outline-none focus:ring-gray-800 focus:shadow-outline text-base font-normal  bg-white bg-clip-padding bg-no-repeat  border-solid    focus:text-gray-700  " aria-label="Default select example" required>
+                  <option selected >I Am</option>
+                  <option value="Seller">Seller</option>
+                  <option value="Customer">Customer</option>
+                  
+              </select>
+            </div>
+          </div>
+
+          <div class="relative">               
+            <input class="appearance-none border pl-12 border-gray-100 shadow-sm focus:shadow-md
+            focus:placeholder-gray-600  transition  rounded-md w-full py-3 text-gray-600 leading-tight
+            focus:outline-none focus:ring-gray-600 focus:shadow-outline" id="username"  type="text" placeholder="Username" name="username" autocomplete="off" required/>
+            <div class="absolute left-4 inset-y-0 flex items-center">               
+              <img src="/img/user20.png" alt="">              
+            </div>           
+          </div>            
+          <div class="relative mt-3">               
+            <input  class="appearance-none border pl-12 border-gray-100 shadow-sm focus:shadow-md
+            focus:placeholder-gray-600  transition  rounded-md w-full py-3 text-gray-600 leading-tight
+            focus:outline-none focus:ring-gray-600 focus:shadow-outline" id="email" type="email"
+                    placeholder="Email" name="email" autocomplete="off" required/>
+            <div class="absolute left-4 inset-y-0 flex items-center">                  
+              <img src="/img/gmail20.png" alt="">              
+            </div>            
+          </div> 
+          <div class="relative mt-3">               
+            <input  class="appearance-none border pl-12 border-gray-100 shadow-sm focus:shadow-md
+            focus:placeholder-gray-600  transition  rounded-md w-full py-3 text-gray-600 leading-tight
+            focus:outline-none focus:ring-gray-600 focus:shadow-outline" id="phone" type="tel"
+                    placeholder="Phone" name="phone" autocomplete="off" required/>
+            <div class="absolute left-4 inset-y-0 flex items-center">                  
+              <img src="/img/phone20.png" alt="">              
+            </div>            
+          </div>
+          
+          <div class="  flex ">
+             
+            <div class="relative mt-3 pr-9">               
+              <input  class="appearance-none border pl-12 border-gray-100 shadow-sm focus:shadow-md
+              focus:placeholder-gray-600  transition  rounded-md w-96 py-3 text-gray-600 leading-tight
+              focus:outline-none focus:ring-gray-600 focus:shadow-outline" id="pin" type="text"
+                      placeholder="Pin-Code" name="pin" required/>
+              <div class="absolute left-4 inset-y-0 flex items-center">                  
+                <img src="/img/pincode20.png" alt="">              
+              </div>            
+            </div>
+            <!-- <div class="flex   mt-3 ">          
+              <button class=" text-white  px-3 rounded bg-indigo-400 hover:bg-indigo-500 shadow
+              hover:shadow-lg font-normal  " >Get Detail</button>
+            </div>  -->
+            
+            
+
+          </div>
+          <div>
+            <div class="relative mt-3">               
+              <input  class="appearance-none border pl-12 border-gray-100 shadow-sm focus:shadow-md
+              focus:placeholder-gray-600  transition  rounded-md w-full py-3 text-gray-600 leading-tight
+              focus:outline-none focus:ring-gray-600 focus:shadow-outline" id="city" type="text"
+                      placeholder="City" name="city" required/>
+              <div class="absolute left-4 inset-y-0 flex items-center">                  
+                <img src="/img/city20.png" alt="">              
+              </div>            
+            </div>
+            <!-- <div class="relative mt-3 ">               
+              <input  class="appearance-none border  pl-12 border-gray-100 shadow-sm focus:shadow-md
+              focus:placeholder-gray-600  transition  rounded-md w-full py-3 text-gray-600 leading-tight
+              focus:outline-none focus:ring-gray-600 focus:shadow-outline" id="username" type="text"
+                      placeholder="State" name="state" required/>
+              <div class="absolute left-4 inset-y-0 flex items-center">                  
+                <img src="/img/state20.png" alt="">              
+              </div>            
+            </div>  -->
+          </div>
+
+                      
+          <div class="relative mt-3">               
+            <input class="appearance-none border pl-12 border-gray-100 shadow-sm focus:shadow-md focus:placeholder-gray-600  transition  rounded-md w-full py-3 text-gray-600 leading-tight focus:outline-none focus:ring-gray-600 focus:shadow-outline" id="password" type="password" placeholder="Password" name="password"
+            autocomplete="off"required/>                         
+            <div class="absolute left-4 inset-y-0 flex items-center">                  
+              <img src="/img/password-20.png" alt="">              
+            </div>            
+          </div> 
+          <div class="relative mt-3">               
+            <input class="appearance-none border pl-12 border-gray-100 shadow-sm focus:shadow-md focus:placeholder-gray-600  transition  rounded-md w-full py-3 text-gray-600 leading-tight focus:outline-none focus:ring-gray-600 focus:shadow-outline" id="conpassword" type="password" placeholder="Confirm Password" name="confirmpassword"
+            autocomplete="off"required/>                         
+            <div class="absolute left-4 inset-y-0 flex items-center">                  
+              <img src="/img/password-20.png" alt="">              
+            </div>            
+          </div> 
+          <!-- <fieldset class="w-full space-y-1 dark:text-coolGray-100"> -->
+            <!-- <label for="files" class="block text-sm font-medium">Attachments</label>
+            <div class="flex">
+              <input type="file" name="files" id="files" class="px-8 py-12 border-2 border-dashed rounded-md dark:border-coolGray-700 dark:text-coolGray-400 dark:bg-coolGray-800">
+            </div> -->
+          <!-- </fieldset>            -->
+        
+          <div class="mt-4 flex items-center text-gray-500">          
+            <input type="checkbox" id="remember" name="remember" class="mr-2" /> 
+            <label class="text-sm" for="remember" required>
+                I agree with the 
+                <a class="text-indigo-400 hover:text-indigo-500">Privacy Policy</a> 
+            </label>        
+          </div>   
+                
+          <div class="flex items-center justify-center mt-8">          
+            <button class="text-white py-2 px-4 uppercase rounded bg-indigo-500 hover:bg-indigo-600 shadow
+            hover:shadow-lg font-medium transition transform hover:-translate-y-0.5" >Create Account</button>
+          </div> 
+          <div class="mt-4 flex items-center text-gray-500 justify-center">
+                Have an Account-
+                <a href="/login" class="text-indigo-400 hover:text-indigo-500"> Sign In</a>
+            </label>        
+          </div>        
+        </form>      
+      </div>   
+    </div>
+  </div>
